@@ -40,9 +40,7 @@ const messages = [
 function change_message() {
     var contents = document.getElementById('random_contents').innerHTML
     const messageNo = Math.floor(Math.random() * messages.length);
-    console.log(messages[messageNo])
     contents = messages[messageNo]
-    console.log(contents)
     document.getElementById("random_contents").innerHTML = contents;
 }
 
