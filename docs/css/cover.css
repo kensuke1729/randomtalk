@@ -9,6 +9,7 @@
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
+  margin-top: 2rem;
 }
 
 
@@ -22,7 +23,15 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: rem;
+  background-image: url(/Users/masayasutahara/Desktop/html_lesson/img/coffee-1276778_1920.jpg);
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+  background-size: cover ;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family:"游ゴシック", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
 
 
@@ -50,4 +59,15 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+p {
+  margin-top:1rem;
+}
+
+.px-3 {
+  color:rgba(101, 53, 11, 1);
+}
+h3 {
+  color:rgba(101, 53, 11, 1);
 }
