@@ -24,7 +24,11 @@ body {
 
 .cover-container {
   max-width: rem;
+<<<<<<< HEAD
   background-image: url(/Users/masayasutahara/Desktop/html_lesson/img/coffee-1276778_1920.jpg);
+=======
+  background-image: url(/Users/masayasutahara/randomtalk/docs/coffee-1276778_1920.jpg);
+>>>>>>> 4f689b9a16482b1d4bf1e5be06aee5c8181ffb11
   background-color:rgba(255,255,255,0.5);
   background-blend-mode:lighten;
   background-size: cover ;
