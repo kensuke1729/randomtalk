@@ -2,7 +2,6 @@
  * Globals
  */
 
-
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -12,48 +11,43 @@
   margin-top: 2rem;
 }
 
-
 /*
  * Base structure
  */
 
 body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 
 .cover-container {
   max-width: rem;
-<<<<<<< HEAD
-  background-image: url(/Users/masayasutahara/Desktop/html_lesson/img/coffee-1276778_1920.jpg);
-=======
-  background-image: url(/Users/masayasutahara/randomtalk/docs/coffee-1276778_1920.jpg);
->>>>>>> 4f689b9a16482b1d4bf1e5be06aee5c8181ffb11
-  background-color:rgba(255,255,255,0.5);
-  background-blend-mode:lighten;
-  background-size: cover ;
+  background-image: url(../img/coffee.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  font-family:"游ゴシック", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-family: "游ゴシック", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ",
+    sans-serif;
 }
-
 
 /*
  * Header
  */
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -66,12 +60,12 @@ body {
 }
 
 p {
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 .px-3 {
-  color:rgba(101, 53, 11, 1);
+  color: rgba(101, 53, 11, 1);
 }
 h3 {
-  color:rgba(101, 53, 11, 1);
+  color: rgba(101, 53, 11, 1);
 }
