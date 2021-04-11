@@ -14,40 +14,39 @@
     <!-- Bootstrap core CSS -->
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style> -->
-
     <!-- Custom styles for this template -->
     <link href="./css/cover.css" rel="stylesheet" />
     <link href="./css/fukamaru.css" rel="stylesheet" />
+    <link href="./css/slider.css" rel="stylesheet" />
   </head>
 
   <body class="d-flex h-100 text-center text-white bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="mb-auto header_content"></header>
-
+      <header class="mb-auto header_content">
+        <div>
+          <a href="./theme.html">戻る</a>
+        </div>
+        <div>
+          <p class="header_title header_guide">使い方ガイド</p>
+        </div>
+        <div>
+          <p class="clearText">使い方</p>
+        </div>
+      </header>
       <main class="px-3">
-        <a href="#" class="btn-circle-border-simple header_title">ふかまーる</a>
-        <h1 class="lead" id="">
-          出会ったばかりの2人がお互いを<br />
-          理解し合うための話題作成サービスです
-        </h1>
-        <p class="lead">
-          <a href="./theme.html" class="btn-gradient-radius">テーマを選ぶ</a>
-        </p>
+        <div class="slider">
+          <div class="slides">
+            <div id="slide-1">
+              <p>会話を広げよう</p>
+              <p>5W1Hを意識して相手の回答に質問してみよう！</p>
+            </div>
+            <div id="slide-2">2</div>
+            <div id="slide-3">3</div>
+          </div>
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
       </main>
 
       <footer class="mt-auto text-white-50"></footer>

@@ -1,0 +1,21 @@
+.theme_box {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  color: white; /*文字色*/
+  background-color: gray;
+  /* border: solid 3px #6091d3;  */
+  border-radius: 10px; /*角の丸み*/
+}
+.theme_box p {
+  margin: 0;
+  padding: 0;
+}
+.theme_title {
+  font-size: 30px;
+}
+.btn-start-talk {
+  margin: 0 auto;
+  color: white;
+  background-color: orange;
+}

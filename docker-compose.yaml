@@ -5,3 +5,5 @@ services:
     container_name: randomtalk-web
     ports:
       - "80:80"
+    volumes:
+      - ./docs:/usr/local/apache2/app/fukama-ru/
