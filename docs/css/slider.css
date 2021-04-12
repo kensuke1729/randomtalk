@@ -64,7 +64,7 @@
 .author-info a {
   color: white;
 }
-img {
+.img {
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -90,24 +90,4 @@ img {
 }
 .slider > a:focus {
   background: #000;
-}
-
-/* Don't need button navigation */
-@supports (scroll-snap-type) {
-  .slider > a {
-    display: none;
-  }
-}
-
-html,
-body {
-  height: 100%;
-  overflow: hidden;
-}
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to bottom, #74abe2, #5563de);
-  font-family: "Ropa Sans", sans-serif;
 }

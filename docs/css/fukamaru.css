@@ -18,9 +18,9 @@
   transition: 0.4s;
 }
 
-.btn-circle-border-simple:hover {
+/* .btn-circle-border-simple:hover {
   background-color: #b3e1ff;
-}
+} */
 
 .btn-gradient-radius {
   display: inline-block;
@@ -72,10 +72,6 @@
   font-size: 30px;
   color: chocolate;
 }
-
-.header_guide {
-}
-
 .clearText {
   text-indent: 100%;
   white-space: nowrap;
